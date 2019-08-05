@@ -1,0 +1,195 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+body
+{
+	padding-top: 64px;
+}
+img
+{
+	width: 100%;
+}
+.clrfix
+{
+	clear: both;
+}
+.container
+{
+	width:90%;
+	margin: auto;
+}
+.back-black
+{
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+.line
+{
+    width: 70px;
+    height: 1px;
+    background-color: #aaa;
+	margin: auto;
+}
+
+/** Start Navbar styles */
+.nav-bar
+{
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding:20px 0;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+}
+.nav-bar .logo
+{
+	width:10%;
+	float:left;
+}
+.nav-bar .titles
+{
+	width:90%;
+	float: right;
+	text-align: right;
+}
+.nav-bar .titles .titles-list
+{
+	list-style: none;
+}
+.nav-bar .titles .titles-list .titles-item
+{
+	display: inline-block;
+	font-size: 20px;
+	margin-left:30px;
+}
+.nav-bar .titles .titles-list .titles-item a
+{
+	color:#687074;
+	text-decoration: none;
+}
+/** End Nav-bar styles */
+
+/** Start Home section styles */
+.home
+{
+	background-image: url(../images/homeBack.jpg);
+	background-size: cover;
+}
+
+.home .content
+{
+	padding:100px 80px 150px;
+	text-align: center;
+}
+.home .content .heading
+{
+	font-size: 50px;
+	margin-bottom: 28px;
+}
+.home .content .desc
+{
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 34px;
+	margin-bottom: 60px;
+}
+.home .content .btn-link
+{
+	background-color: #fff;
+	border:1px solid #fff;
+	text-decoration: none;
+	padding:15px 28px;
+	color: #333;
+	font-size: 16px;
+	border-radius: 3px;
+}
+/** End Home section styles */
+
+
+
+/** Start about section styles */
+.section
+{
+	padding:100px 0 0;
+}
+.section .header
+{
+	text-align: center;
+}
+.section .header .heading
+{
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.section .header .desc
+{
+	margin-top: 20px;
+	color:#555;
+	padding:0 100px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.about .what
+{
+	text-align: center;
+}
+.about .cards
+{
+	margin:100px 0 0;
+}
+.about .cards .card
+{
+	width:25%;
+	padding:0 10px;
+	float: left;
+	text-align: center;
+}
+.about .cards .card .icon
+{
+	padding:0 40%;
+}
+.about .cards .card .icon2
+{
+	padding:0 44.5%;
+}
+.about .cards .card .heading
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	margin:40px 0 18px;
+}
+.about .cards .card .desc
+{
+	color:#555;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 25px;
+	font-weight: 300;
+}
+/** End about section styles */
+
+/** Start Projects section styles */
+.projects .images
+{
+	margin-top: 30px;
+}
+.projects .col
+{
+	width:25%;
+	float: left
+}
+.projects .col .img-container
+{
+	padding:10px;
+}
+/** End Projects section styles */
+
+
